@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraveNuvem</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            background-color: rgb(13, 13, 114);
+        }
+
+        h1 {
+            margin-top: 10px;
+        }
+
+
+        .navbar-nav .nav-link ,
+        .navbar-nav .nav-link.active,
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(61, 61, 158) ;
+        }
+
+    </style>
+    <style>
+        .carousel-inner img {
+            height: 540px;
+        }
+    </style>
+    <style>
+        section {
+            padding-top: 80px;
+        }
+
+        #promocoes h2,
+        #produtos h2 {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+
+        .card {
+            margin-bottom: 13px;
+        }
+
+    </style>
+    <style>
+        .contact {
+            max-width: 700px;
+            padding: 16px;
+        }
+
+        .contact h2 {
+            text-align: center;
+        }
+
+        .form-check {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <H1>GraveNuvem</H1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <Nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills" >
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#destaque">Destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Acessórios</a>
+                        </li>
+                    </ul>
+                </Nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="destaque">
+            <div class="container">
+                <h2>DESTAQUE</h2>
+                <div id="carousel-inicio" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="https://img.odcdn.com.br/wp-content/uploads/2023/08/resident-evil-4-remake-capa-poster.jpg" />
+                            <div class="carousel-caption">
+                                <H2>RESIDENT EVIL 4 REMAKE</H2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://www.densetsugames.com.br/wp-content/uploads/2019/07/Death-Stranding.jpg" />
+                            <div class="carousel-caption">
+                                <H2>DEATH STRANDING</H2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://cdn.ome.lt/FkDATwOpeBQkYOvI0zJFITCccF8=/970x360/smart/uploads/conteudo/fotos/star-wars-jedi-fallen-order-capa-header.jpeg.jpg" />
+                            <div class="carousel-caption">
+                                <H2>STAR WARS JEDI FALLEN ORDER</H2>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-inicio" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-inicio" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon" ></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <h2>OFERTAS ESPECIAIS</h2>
+                <div class="row">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/7/75/Battlefield_1_capa.png" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 70,00</h4>
+                                <p>
+                                    Guerras em escalas épicas precisam de classes épicas, e as do Battlefield™ 1 são um pouco diferentes do que as que você viu no passado.
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://s2-ge.glbimg.com/hgj24eLzTOm5WcMh2gsJWPYibEU=/0x7:770x979/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/q/f/4xh4idQlWaQeyAhyDitQ/halo-infinite-capa-xbox-series-x.png" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 89,00</h4>
+                                <p>
+                                    Halo Infinite é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela 343 Industries e publicado pela Xbox Game Studios.
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/71bN7mqVC+L._AC_UF1000,1000_QL80_.jpg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 150,90</h4>
+                                <p>
+                                    Dark Souls III é um jogo do género RPG de ação, o quarto da série Souls, desenvolvido pela FromSoftware
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/5/56/Yakuza_Like_a_Dragon_Sega_Ryu_Ga_Gotoku_capa_digital.png" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 70,90</h4>
+                                <p>
+                                    Yakuza: Like a Dragon é um jogo eletrônico de RPG desenvolvido pela Ryu Ga Gotoku Studio e publicado pela Sega.
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/b/b9/Crysis_3_logo.jpg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 50,99</h4>
+                                <p>
+                                    Crysis 3 é um videojogo de tiro em primeira pessoa produzido pela Crytek, e publicado pela Electronic Arts
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Assassins_Creed_Unity_capa.png" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 49,00</h4>
+                                <p>
+                                    Assassin's Creed Unity é um jogo eletrônico de ação-aventura desenvolvido pela Ubisoft Montreal com o apoio de nove outros estúdios
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h2>ACESSÓRIOS</h2>
+                <div class="row">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://cdn.awsli.com.br/600x450/404/404053/produto/142555635/2567f19f0a.jpg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 89,90</h4>
+                                <p>
+                                    É tão fácil deslizar o mouse. Com o seu Evolut EG-411 você poderá preencher a tela do seu computador com cliques.
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://cdn.awsli.com.br/1677/1677101/produto/183031601/fb2c98ac21.jpg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 52,24</h4>
+                                <p>
+                                    Mouse Gamer 8000 DPI RGB Xtrike Me - GM-327 Backlit Gaming Mouse. Perfeito para jogos FPS, com teclas de atalho
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOhT6s5sUg_vYomqQom52919Sahmrw8b9KA&s" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 729,90</h4>
+                                <p>
+                                    Microfone Gamer HyperX QuadCast Você é streamer, criador de conteúdo ou player. Deseja se comunicar com som impecável para os seus seguidores?
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://images.tcdn.com.br/img/img_prod/406359/headphone_gamer_para_ps4_pc_celular_com_microfone_articulado_led_rgb_7_cores_almofada_extra_macia_gh_2781_1_fc011894f2d7616f79077d57564e82eb_20220707114640.jpeg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 156,90</h4>
+                                <p>
+                                    Fone de ouvido X1000 gamer, são 2 alto-falantes em cada auricular com almofada extra macia para curtir seu jogo por um longo tempo de forma
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://images.tcdn.com.br/img/img_prod/1291642/cadeira_gamer_giratoria_com_rodinhas_rosa_cg2_17_201_1_a830f0a2abf0fdd5bab6c70873d59946.jpg" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 479,99</h4>
+                                <p>
+                                    Cadeira gamer reclinável em 130° com apoio retrátil para os pés, com apoio de lombar e apoio de pescoço reguláveis
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card">
+                            <img src="https://lojaibyte.vteximg.com.br/arquivos/ids/195675-540-540/teclado-usb-goldentec-gt-gaming-preto-vermelho-19140-1.jpg?v=637318904347730000" weight="414px" height="546px" />
+                            <div class="card-body">
+                                <h4 class="card-title">R$ 56,90</h4>
+                                <p>
+                                    Seus jogos se tornarão muito mais divertidos com o Teclado Gamer Goldentec GT TGaming. Este teclado foi desenvolvido pensando nos gamers,
+                                </p>
+                                <a href="#" class="btn btn-primary">COMPRA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<footer class="bg-dark text-light">
+    <div class="container-fluid py-3">
+    <div class="row">
+    <div class="col-8">
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: #333; padding: 20px;" >
+      &copy 2024 Copyright: <a href="#">GraveNuvem</a>
+    </div>
+  </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
